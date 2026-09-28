@@ -1,0 +1,1894 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\playwright\\node_modules\\@playwright\\test\\cli.js",
+      "test"
+    ],
+    "configFile": "C:\\playwright\\playwright.config.ts",
+    "rootDir": "C:/playwright/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 6
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "core-functionality-and-ui.spec.js",
+      "file": "core-functionality-and-ui.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Part 1: Core Functionality Test Suite (10 Functional Checks)",
+          "file": "core-functionality-and-ui.spec.js",
+          "line": 41,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-FUNC-01: Valid User Authentication & Session Establishment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9468,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:15.805Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "504500a710b292c769db-5f13fddad1dfaf108edd",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 44,
+              "column": 3
+            },
+            {
+              "title": "TC-FUNC-02: Negative Authentication & Dynamic Error Handling",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 7614,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:15.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "504500a710b292c769db-c6f3a226e27cfae788c2",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 63,
+              "column": 3
+            },
+            {
+              "title": "TC-FUNC-03: Product Catalog Dynamic Sorting (Low to High & High to Low)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 7639,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:15.886Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "504500a710b292c769db-ec98478108a9e7f6a158",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 79,
+              "column": 3
+            },
+            {
+              "title": "TC-FUNC-04: Cart State Management (Add Items & Counter Update)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 7577,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:15.862Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "504500a710b292c769db-848b5961b01b9dd42285",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 99,
+              "column": 3
+            },
+            {
+              "title": "TC-FUNC-05: Item Removal & Dynamic Cart State Synchronization",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 7705,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:15.875Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "504500a710b292c769db-0e3939bef016c4498bfe",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 123,
+              "column": 3
+            },
+            {
+              "title": "TC-FUNC-06: Checkout Information Form Validation & Step Progression",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 7760,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:15.881Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "504500a710b292c769db-c76c94b665cdc1b30a6a",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 145,
+              "column": 3
+            },
+            {
+              "title": "TC-FUNC-07: Dynamic Financial Calculation & Order Summary Verification",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1518,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:44.618Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "504500a710b292c769db-266fb230115a7a16bb5c",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 169,
+              "column": 3
+            },
+            {
+              "title": "TC-FUNC-08: Complete Order Dispatch & Post-Checkout State Reset",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1599,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:44.622Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "504500a710b292c769db-56f9597d868c7dc5e3b7",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 196,
+              "column": 3
+            },
+            {
+              "title": "TC-FUNC-09: Navigation Drawer & Session Logout Lifecycle",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 2383,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:44.677Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "504500a710b292c769db-1933bf1bae28e050a6df",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 220,
+              "column": 3
+            },
+            {
+              "title": "TC-FUNC-10: Route Guard & Direct Access Restriction to Protected Pages",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 1606,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:44.769Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "504500a710b292c769db-696279974eefacfb0438",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 241,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "Part 2: UI & Visual Presentation Suite (10 UI Checks)",
+          "file": "core-functionality-and-ui.spec.js",
+          "line": 257,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-UI-01: Visual Branding & Header Logo Asset Rendering",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 1409,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:44.777Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "504500a710b292c769db-9bdfae837d5b6f0463f1",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 260,
+              "column": 3
+            },
+            {
+              "title": "TC-UI-02: Input Fields Placeholder Text & Type Attributes",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1260,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:46.154Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "504500a710b292c769db-bb45e53b8e32d21613a9",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 276,
+              "column": 3
+            },
+            {
+              "title": "TC-UI-03: Error Notification Banner Styling & Error Indicators",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 1270,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:46.207Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "504500a710b292c769db-97cc491516c9d6ae4f2a",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 296,
+              "column": 3
+            },
+            {
+              "title": "TC-UI-04: Product Card Grid Visual Structure & Component Integrity",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 1153,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.js:316:19",
+                        "location": {
+                          "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.js",
+                          "column": 19,
+                          "line": 316
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 314 |\u001b[39m     \u001b[36mconst\u001b[39m items \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.inventory_item'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 315 |\u001b[39m     \u001b[36mconst\u001b[39m count \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m items\u001b[33m.\u001b[39mcount()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 316 |\u001b[39m     expect(count)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 317 |\u001b[39m\n \u001b[90m 318 |\u001b[39m     \u001b[90m// Validate component integrity of first product card\u001b[39m\n \u001b[90m 319 |\u001b[39m     \u001b[36mconst\u001b[39m firstItem \u001b[33m=\u001b[39m items\u001b[33m.\u001b[39mfirst()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.js",
+                            "column": 19,
+                            "line": 316
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m\n\n  314 |     const items = page.locator('.inventory_item');\n  315 |     const count = await items.count();\n> 316 |     expect(count).toBeGreaterThan(0);\n      |                   ^\n  317 |\n  318 |     // Validate component integrity of first product card\n  319 |     const firstItem = items.first();\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.js:316:19"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:46.238Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--60215-ructure-Component-Integrity-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--60215-ructure-Component-Integrity-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--60215-ructure-Component-Integrity-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.js",
+                        "column": 19,
+                        "line": 316
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "504500a710b292c769db-278192aed52536f815ae",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 311,
+              "column": 3
+            },
+            {
+              "title": "TC-UI-05: Shopping Cart Badge Dynamic Visibility & Visual Presentation",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "failed",
+                      "duration": 6613,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCSS\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.shopping_cart_badge')\nExpected: \u001b[32m\"block\"\u001b[39m\nReceived: \u001b[31m\"flex\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCSS\" locator('.shopping_cart_badge') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.shopping_cart_badge')\u001b[22m\n\u001b[2m    14 × locator resolved to <span class=\"shopping_cart_badge\" data-test=\"shopping-cart-badge\">1</span>\u001b[22m\n\u001b[2m       - unexpected value \"flex\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCSS\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.shopping_cart_badge')\nExpected: \u001b[32m\"block\"\u001b[39m\nReceived: \u001b[31m\"flex\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCSS\" locator('.shopping_cart_badge') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.shopping_cart_badge')\u001b[22m\n\u001b[2m    14 × locator resolved to <span class=\"shopping_cart_badge\" data-test=\"shopping-cart-badge\">1</span>\u001b[22m\n\u001b[2m       - unexpected value \"flex\"\u001b[22m\n\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.js:346:25",
+                        "location": {
+                          "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.js",
+                          "column": 25,
+                          "line": 346
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 344 |\u001b[39m     \u001b[36mawait\u001b[39m expect(badge)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 345 |\u001b[39m     \u001b[36mawait\u001b[39m expect(badge)\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'1'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 346 |\u001b[39m     \u001b[36mawait\u001b[39m expect(badge)\u001b[33m.\u001b[39mtoHaveCSS(\u001b[32m'display'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'block'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 347 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 348 |\u001b[39m\n \u001b[90m 349 |\u001b[39m   \u001b[90m// UI Check 6: Button Interactive State Transformation (Add to Cart -> Remove)\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.js",
+                            "column": 25,
+                            "line": 346
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCSS\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.shopping_cart_badge')\nExpected: \u001b[32m\"block\"\u001b[39m\nReceived: \u001b[31m\"flex\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCSS\" locator('.shopping_cart_badge') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.shopping_cart_badge')\u001b[22m\n\u001b[2m    14 × locator resolved to <span class=\"shopping_cart_badge\" data-test=\"shopping-cart-badge\">1</span>\u001b[22m\n\u001b[2m       - unexpected value \"flex\"\u001b[22m\n\n\n  344 |     await expect(badge).toBeVisible();\n  345 |     await expect(badge).toHaveText('1');\n> 346 |     await expect(badge).toHaveCSS('display', 'block');\n      |                         ^\n  347 |   });\n  348 |\n  349 |   // UI Check 6: Button Interactive State Transformation (Add to Cart -> Remove)\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.js:346:25"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:46.391Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--344e8-ibility-Visual-Presentation-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--344e8-ibility-Visual-Presentation-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--344e8-ibility-Visual-Presentation-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.js",
+                        "column": 25,
+                        "line": 346
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "504500a710b292c769db-b3f501d3b6db988772cc",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 332,
+              "column": 3
+            },
+            {
+              "title": "TC-UI-06: Button Interactive State Transformation (Add to Cart -> Remove)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1246,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:46.526Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "504500a710b292c769db-dc180ea1ea1e473c7af0",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 350,
+              "column": 3
+            },
+            {
+              "title": "TC-UI-07: Responsive Layout & Mobile Viewport Adaptation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1114,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:47.074Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "504500a710b292c769db-a96b08fac4b87086431d",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 368,
+              "column": 3
+            },
+            {
+              "title": "TC-UI-08: Header and Footer Structural Component Rendering",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 6399,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a[href*=\"twitter.com\"]')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('a[href*=\"twitter.com\"]') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('a[href*=\"twitter.com\"]')\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a[href*=\"twitter.com\"]')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('a[href*=\"twitter.com\"]') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('a[href*=\"twitter.com\"]')\u001b[22m\n\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.js:403:27",
+                        "location": {
+                          "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.js",
+                          "column": 27,
+                          "line": 403
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 401 |\u001b[39m     \u001b[36mconst\u001b[39m linkedin \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'a[href*=\"linkedin.com\"]'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 402 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 403 |\u001b[39m     \u001b[36mawait\u001b[39m expect(twitter)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 404 |\u001b[39m     \u001b[36mawait\u001b[39m expect(facebook)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 405 |\u001b[39m     \u001b[36mawait\u001b[39m expect(linkedin)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 406 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.js",
+                            "column": 27,
+                            "line": 403
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a[href*=\"twitter.com\"]')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('a[href*=\"twitter.com\"]') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('a[href*=\"twitter.com\"]')\u001b[22m\n\n\n  401 |     const linkedin = page.locator('a[href*=\"linkedin.com\"]');\n  402 |\n> 403 |     await expect(twitter).toBeVisible();\n      |                           ^\n  404 |     await expect(facebook).toBeVisible();\n  405 |     await expect(linkedin).toBeVisible();\n  406 |   });\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.js:403:27"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:47.428Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--9caf1-uctural-Component-Rendering-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--9caf1-uctural-Component-Rendering-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--9caf1-uctural-Component-Rendering-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.js",
+                        "column": 27,
+                        "line": 403
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "504500a710b292c769db-514f543b7699ceff32fe",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 385,
+              "column": 3
+            },
+            {
+              "title": "TC-UI-09: Typography Hierarchy & Currency Formatting Validation",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "failed",
+                      "duration": 6590,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCSS\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.title')\nExpected: \u001b[32m\"\u001b[7muppercas\u001b[27me\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mnon\u001b[27me\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCSS\" locator('.title') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.title')\u001b[22m\n\u001b[2m    14 × locator resolved to <span class=\"title\" data-test=\"title\">Products</span>\u001b[22m\n\u001b[2m       - unexpected value \"none\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCSS\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.title')\nExpected: \u001b[32m\"\u001b[7muppercas\u001b[27me\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mnon\u001b[27me\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCSS\" locator('.title') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.title')\u001b[22m\n\u001b[2m    14 × locator resolved to <span class=\"title\" data-test=\"title\">Products</span>\u001b[22m\n\u001b[2m       - unexpected value \"none\"\u001b[22m\n\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.js:415:29",
+                        "location": {
+                          "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.js",
+                          "column": 29,
+                          "line": 415
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 413 |\u001b[39m     \u001b[36mconst\u001b[39m pageTitle \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.title'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 414 |\u001b[39m     \u001b[36mawait\u001b[39m expect(pageTitle)\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'Products'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 415 |\u001b[39m     \u001b[36mawait\u001b[39m expect(pageTitle)\u001b[33m.\u001b[39mtoHaveCSS(\u001b[32m'text-transform'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'uppercase'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 416 |\u001b[39m\n \u001b[90m 417 |\u001b[39m     \u001b[90m// Price currency symbol and decimal formatting ($XX.XX)\u001b[39m\n \u001b[90m 418 |\u001b[39m     \u001b[36mconst\u001b[39m priceLabels \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.inventory_item_price'\u001b[39m)\u001b[33m.\u001b[39mallTextContents()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.js",
+                            "column": 29,
+                            "line": 415
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCSS\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.title')\nExpected: \u001b[32m\"\u001b[7muppercas\u001b[27me\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mnon\u001b[27me\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCSS\" locator('.title') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.title')\u001b[22m\n\u001b[2m    14 × locator resolved to <span class=\"title\" data-test=\"title\">Products</span>\u001b[22m\n\u001b[2m       - unexpected value \"none\"\u001b[22m\n\n\n  413 |     const pageTitle = page.locator('.title');\n  414 |     await expect(pageTitle).toHaveText('Products');\n> 415 |     await expect(pageTitle).toHaveCSS('text-transform', 'uppercase');\n      |                             ^\n  416 |\n  417 |     // Price currency symbol and decimal formatting ($XX.XX)\n  418 |     const priceLabels = await page.locator('.inventory_item_price').allTextContents();\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.js:415:29"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:47.490Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--40d6e-rency-Formatting-Validation-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--40d6e-rency-Formatting-Validation-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--40d6e-rency-Formatting-Validation-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.js",
+                        "column": 29,
+                        "line": 415
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "504500a710b292c769db-8397dd8a8c25b0a2906b",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 409,
+              "column": 3
+            },
+            {
+              "title": "TC-UI-10: Navigation Drawer Visual Presentation & Component State",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 6693,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.bm-item-list a')\nExpected: \u001b[32m4\u001b[39m\nReceived: \u001b[31m5\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" locator('.bm-item-list a') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bm-item-list a')\u001b[22m\n\u001b[2m    14 × locator resolved to 5 elements\u001b[22m\n\u001b[2m       - unexpected value \"5\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.bm-item-list a')\nExpected: \u001b[32m4\u001b[39m\nReceived: \u001b[31m5\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" locator('.bm-item-list a') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bm-item-list a')\u001b[22m\n\u001b[2m    14 × locator resolved to 5 elements\u001b[22m\n\u001b[2m       - unexpected value \"5\"\u001b[22m\n\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.js:441:29",
+                        "location": {
+                          "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.js",
+                          "column": 29,
+                          "line": 441
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 439 |\u001b[39m     \u001b[90m// Verify all 4 side navigation links\u001b[39m\n \u001b[90m 440 |\u001b[39m     \u001b[36mconst\u001b[39m menuItems \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.bm-item-list a'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 441 |\u001b[39m     \u001b[36mawait\u001b[39m expect(menuItems)\u001b[33m.\u001b[39mtoHaveCount(\u001b[35m4\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 442 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'#inventory_sidebar_link'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'All Items'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 443 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'#about_sidebar_link'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'About'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 444 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'#logout_sidebar_link'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'Logout'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.js",
+                            "column": 29,
+                            "line": 441
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.bm-item-list a')\nExpected: \u001b[32m4\u001b[39m\nReceived: \u001b[31m5\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" locator('.bm-item-list a') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bm-item-list a')\u001b[22m\n\u001b[2m    14 × locator resolved to 5 elements\u001b[22m\n\u001b[2m       - unexpected value \"5\"\u001b[22m\n\n\n  439 |     // Verify all 4 side navigation links\n  440 |     const menuItems = page.locator('.bm-item-list a');\n> 441 |     await expect(menuItems).toHaveCount(4);\n      |                             ^\n  442 |     await expect(page.locator('#inventory_sidebar_link')).toHaveText('All Items');\n  443 |     await expect(page.locator('#about_sidebar_link')).toHaveText('About');\n  444 |     await expect(page.locator('#logout_sidebar_link')).toHaveText('Logout');\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.js:441:29"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:47.787Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--9863c-resentation-Component-State-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--9863c-resentation-Component-State-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--9863c-resentation-Component-State-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.js",
+                        "column": 29,
+                        "line": 441
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "504500a710b292c769db-7c76194f87affc503869",
+              "file": "core-functionality-and-ui.spec.js",
+              "line": 428,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "core-functionality-and-ui.spec.ts",
+      "file": "core-functionality-and-ui.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Part 1: Core Functionality Test Suite (10 Functional Checks)",
+          "file": "core-functionality-and-ui.spec.ts",
+          "line": 32,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-FUNC-01: Valid User Authentication & Session Establishment",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1098,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:48.531Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-e9a782e561322455395e",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 35,
+              "column": 7
+            },
+            {
+              "title": "TC-FUNC-02: Negative Authentication & Dynamic Error Handling",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1057,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:48.207Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-0122f361895828003179",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 54,
+              "column": 7
+            },
+            {
+              "title": "TC-FUNC-03: Product Catalog Dynamic Sorting (Low to High & High to Low)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1185,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:49.276Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-c297bda682575479fedd",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 70,
+              "column": 7
+            },
+            {
+              "title": "TC-FUNC-04: Cart State Management (Add Items & Counter Update)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1011,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:49.755Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-38906a3c2dfcfaeb8c4a",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 90,
+              "column": 7
+            },
+            {
+              "title": "TC-FUNC-05: Item Removal & Dynamic Cart State Synchronization",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 2658,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:50.470Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-c5a74f9ce3dddf82e441",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 114,
+              "column": 7
+            },
+            {
+              "title": "TC-FUNC-06: Checkout Information Validation & Step Progression",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 2038,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:50.776Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-e78f5f0370a3b9f5dc10",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 136,
+              "column": 7
+            },
+            {
+              "title": "TC-FUNC-07: Dynamic Financial Calculation & Order Summary Verification",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1466,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:52.824Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-d85aeb028adfa4dca0f5",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 160,
+              "column": 7
+            },
+            {
+              "title": "TC-FUNC-08: Complete Order Dispatch & Post-Checkout State Reset",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1486,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:53.136Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-643426aaab6e42ceaf87",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 187,
+              "column": 7
+            },
+            {
+              "title": "TC-FUNC-09: Navigation Drawer & Session Logout Lifecycle",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 4407,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:54.356Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-2b3d1955eaa257832cd1",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 211,
+              "column": 7
+            },
+            {
+              "title": "TC-FUNC-10: Route Guard & Direct Access Restriction to Protected Pages",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1195,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:54.794Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-b71c702688b2e1d46ffb",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 232,
+              "column": 7
+            }
+          ]
+        },
+        {
+          "title": "Part 2: UI & Visual Presentation Suite (10 UI Checks)",
+          "file": "core-functionality-and-ui.spec.ts",
+          "line": 248,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-UI-01: Visual Branding & Header Logo Asset Rendering",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 1056,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:54.966Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-fda6f5ce6cd6bc7fff0e",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 251,
+              "column": 7
+            },
+            {
+              "title": "TC-UI-02: Input Fields Placeholder Text & Type Attributes",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 3126,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:54.304Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-17afb505608aff6cdd0f",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 267,
+              "column": 7
+            },
+            {
+              "title": "TC-UI-03: Error Notification Banner Styling & Error Indicators",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 714,
+                      "error": {
+                        "message": "Error: page.goto: net::ERR_NETWORK_CHANGED at https://www.saucedemo.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.saucedemo.com/\", waiting until \"load\"\u001b[22m\n",
+                        "stack": "Error: page.goto: net::ERR_NETWORK_CHANGED at https://www.saucedemo.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.saucedemo.com/\", waiting until \"load\"\u001b[22m\n\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.ts:288:16",
+                        "location": {
+                          "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.ts",
+                          "column": 16,
+                          "line": 288
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 286 |\u001b[39m   \u001b[90m// UI Check 3: Error Notification Banner Visual Styling & Indicators\u001b[39m\n \u001b[90m 287 |\u001b[39m   test(\u001b[32m'TC-UI-03: Error Notification Banner Styling & Error Indicators'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 288 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 289 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'[data-test=\"login-button\"]'\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 290 |\u001b[39m\n \u001b[90m 291 |\u001b[39m     \u001b[36mconst\u001b[39m errorContainer \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.error-message-container'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.ts",
+                            "column": 16,
+                            "line": 288
+                          },
+                          "message": "Error: page.goto: net::ERR_NETWORK_CHANGED at https://www.saucedemo.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.saucedemo.com/\", waiting until \"load\"\u001b[22m\n\n\n  286 |   // UI Check 3: Error Notification Banner Visual Styling & Indicators\n  287 |   test('TC-UI-03: Error Notification Banner Styling & Error Indicators', async ({ page }) => {\n> 288 |     await page.goto('/');\n      |                ^\n  289 |     await page.locator('[data-test=\"login-button\"]').click();\n  290 |\n  291 |     const errorContainer = page.locator('.error-message-container');\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.ts:288:16"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:54.633Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--b808e-er-Styling-Error-Indicators-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--b808e-er-Styling-Error-Indicators-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--b808e-er-Styling-Error-Indicators-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.ts",
+                        "column": 16,
+                        "line": 288
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-919e3bf639f87ecab29a",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 287,
+              "column": 7
+            },
+            {
+              "title": "TC-UI-04: Product Card Grid Visual Structure & Component Integrity",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1211,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:55.370Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-ff58222719a284e7b6cc",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 304,
+              "column": 7
+            },
+            {
+              "title": "TC-UI-05: Shopping Cart Badge Dynamic Visibility & Visual Presentation",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 6346,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCSS\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.shopping_cart_badge')\nExpected: \u001b[32m\"block\"\u001b[39m\nReceived: \u001b[31m\"flex\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCSS\" locator('.shopping_cart_badge') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.shopping_cart_badge')\u001b[22m\n\u001b[2m    14 × locator resolved to <span class=\"shopping_cart_badge\" data-test=\"shopping-cart-badge\">1</span>\u001b[22m\n\u001b[2m       - unexpected value \"flex\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCSS\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.shopping_cart_badge')\nExpected: \u001b[32m\"block\"\u001b[39m\nReceived: \u001b[31m\"flex\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCSS\" locator('.shopping_cart_badge') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.shopping_cart_badge')\u001b[22m\n\u001b[2m    14 × locator resolved to <span class=\"shopping_cart_badge\" data-test=\"shopping-cart-badge\">1</span>\u001b[22m\n\u001b[2m       - unexpected value \"flex\"\u001b[22m\n\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.ts:341:25",
+                        "location": {
+                          "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.ts",
+                          "column": 25,
+                          "line": 341
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 339 |\u001b[39m\n \u001b[90m 340 |\u001b[39m     \u001b[90m// Verify CSS styles (font weight / position)\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 341 |\u001b[39m     \u001b[36mawait\u001b[39m expect(badge)\u001b[33m.\u001b[39mtoHaveCSS(\u001b[32m'display'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'block'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 342 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 343 |\u001b[39m\n \u001b[90m 344 |\u001b[39m   \u001b[90m// UI Check 6: Button State Transformation & Visual Transition\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.ts",
+                            "column": 25,
+                            "line": 341
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCSS\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.shopping_cart_badge')\nExpected: \u001b[32m\"block\"\u001b[39m\nReceived: \u001b[31m\"flex\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCSS\" locator('.shopping_cart_badge') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.shopping_cart_badge')\u001b[22m\n\u001b[2m    14 × locator resolved to <span class=\"shopping_cart_badge\" data-test=\"shopping-cart-badge\">1</span>\u001b[22m\n\u001b[2m       - unexpected value \"flex\"\u001b[22m\n\n\n  339 |\n  340 |     // Verify CSS styles (font weight / position)\n> 341 |     await expect(badge).toHaveCSS('display', 'block');\n      |                         ^\n  342 |   });\n  343 |\n  344 |   // UI Check 6: Button State Transformation & Visual Transition\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.ts:341:25"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:56.215Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--344e8-ibility-Visual-Presentation-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--344e8-ibility-Visual-Presentation-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--344e8-ibility-Visual-Presentation-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.ts",
+                        "column": 25,
+                        "line": 341
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-983f124578bc13576ce9",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 325,
+              "column": 7
+            },
+            {
+              "title": "TC-UI-06: Button Interactive State Transformation (Add to Cart -> Remove)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1162,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:56.137Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-9a59b30c83e19656cf17",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 345,
+              "column": 7
+            },
+            {
+              "title": "TC-UI-07: Responsive Layout & Viewport Adaptation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 1261,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:56.312Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-581e84b6c6680c277a87",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 363,
+              "column": 7
+            },
+            {
+              "title": "TC-UI-08: Header and Footer Structural Component Rendering",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 6332,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a[href*=\"twitter.com\"]')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('a[href*=\"twitter.com\"]') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('a[href*=\"twitter.com\"]')\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a[href*=\"twitter.com\"]')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('a[href*=\"twitter.com\"]') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('a[href*=\"twitter.com\"]')\u001b[22m\n\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.ts:398:27",
+                        "location": {
+                          "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.ts",
+                          "column": 27,
+                          "line": 398
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 396 |\u001b[39m     \u001b[36mconst\u001b[39m linkedin \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'a[href*=\"linkedin.com\"]'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 397 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 398 |\u001b[39m     \u001b[36mawait\u001b[39m expect(twitter)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 399 |\u001b[39m     \u001b[36mawait\u001b[39m expect(facebook)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 400 |\u001b[39m     \u001b[36mawait\u001b[39m expect(linkedin)\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 401 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.ts",
+                            "column": 27,
+                            "line": 398
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('a[href*=\"twitter.com\"]')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" locator('a[href*=\"twitter.com\"]') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('a[href*=\"twitter.com\"]')\u001b[22m\n\n\n  396 |     const linkedin = page.locator('a[href*=\"linkedin.com\"]');\n  397 |\n> 398 |     await expect(twitter).toBeVisible();\n      |                           ^\n  399 |     await expect(facebook).toBeVisible();\n  400 |     await expect(linkedin).toBeVisible();\n  401 |   });\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.ts:398:27"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:56.691Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--9caf1-uctural-Component-Rendering-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--9caf1-uctural-Component-Rendering-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--9caf1-uctural-Component-Rendering-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.ts",
+                        "column": 27,
+                        "line": 398
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-df477ecfebb5415edf21",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 380,
+              "column": 7
+            },
+            {
+              "title": "TC-UI-09: Typography Hierarchy & Currency Formatting Validation",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 6234,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCSS\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.title')\nExpected: \u001b[32m\"\u001b[7muppercas\u001b[27me\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mnon\u001b[27me\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCSS\" locator('.title') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.title')\u001b[22m\n\u001b[2m    14 × locator resolved to <span class=\"title\" data-test=\"title\">Products</span>\u001b[22m\n\u001b[2m       - unexpected value \"none\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCSS\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.title')\nExpected: \u001b[32m\"\u001b[7muppercas\u001b[27me\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mnon\u001b[27me\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCSS\" locator('.title') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.title')\u001b[22m\n\u001b[2m    14 × locator resolved to <span class=\"title\" data-test=\"title\">Products</span>\u001b[22m\n\u001b[2m       - unexpected value \"none\"\u001b[22m\n\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.ts:410:29",
+                        "location": {
+                          "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.ts",
+                          "column": 29,
+                          "line": 410
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 408 |\u001b[39m     \u001b[36mconst\u001b[39m pageTitle \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.title'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 409 |\u001b[39m     \u001b[36mawait\u001b[39m expect(pageTitle)\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'Products'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 410 |\u001b[39m     \u001b[36mawait\u001b[39m expect(pageTitle)\u001b[33m.\u001b[39mtoHaveCSS(\u001b[32m'text-transform'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'uppercase'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 411 |\u001b[39m\n \u001b[90m 412 |\u001b[39m     \u001b[90m// Price currency symbol and format validation\u001b[39m\n \u001b[90m 413 |\u001b[39m     \u001b[36mconst\u001b[39m priceLabels \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.inventory_item_price'\u001b[39m)\u001b[33m.\u001b[39mallTextContents()\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.ts",
+                            "column": 29,
+                            "line": 410
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCSS\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.title')\nExpected: \u001b[32m\"\u001b[7muppercas\u001b[27me\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mnon\u001b[27me\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCSS\" locator('.title') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.title')\u001b[22m\n\u001b[2m    14 × locator resolved to <span class=\"title\" data-test=\"title\">Products</span>\u001b[22m\n\u001b[2m       - unexpected value \"none\"\u001b[22m\n\n\n  408 |     const pageTitle = page.locator('.title');\n  409 |     await expect(pageTitle).toHaveText('Products');\n> 410 |     await expect(pageTitle).toHaveCSS('text-transform', 'uppercase');\n      |                             ^\n  411 |\n  412 |     // Price currency symbol and format validation\n  413 |     const priceLabels = await page.locator('.inventory_item_price').allTextContents();\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.ts:410:29"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:57.318Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--40d6e-rency-Formatting-Validation-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--40d6e-rency-Formatting-Validation-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--40d6e-rency-Formatting-Validation-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.ts",
+                        "column": 29,
+                        "line": 410
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-b013ce8226e16da22042",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 404,
+              "column": 7
+            },
+            {
+              "title": "TC-UI-10: Navigation Drawer Visual Presentation & Component State",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 6331,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.bm-item-list a')\nExpected: \u001b[32m4\u001b[39m\nReceived: \u001b[31m5\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" locator('.bm-item-list a') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bm-item-list a')\u001b[22m\n\u001b[2m    14 × locator resolved to 5 elements\u001b[22m\n\u001b[2m       - unexpected value \"5\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.bm-item-list a')\nExpected: \u001b[32m4\u001b[39m\nReceived: \u001b[31m5\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" locator('.bm-item-list a') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bm-item-list a')\u001b[22m\n\u001b[2m    14 × locator resolved to 5 elements\u001b[22m\n\u001b[2m       - unexpected value \"5\"\u001b[22m\n\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.ts:436:29",
+                        "location": {
+                          "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.ts",
+                          "column": 29,
+                          "line": 436
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 434 |\u001b[39m     \u001b[90m// Verify all 4 navigation items are present\u001b[39m\n \u001b[90m 435 |\u001b[39m     \u001b[36mconst\u001b[39m menuItems \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.bm-item-list a'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 436 |\u001b[39m     \u001b[36mawait\u001b[39m expect(menuItems)\u001b[33m.\u001b[39mtoHaveCount(\u001b[35m4\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 437 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'#inventory_sidebar_link'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'All Items'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 438 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'#about_sidebar_link'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'About'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 439 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'#logout_sidebar_link'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'Logout'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.ts",
+                            "column": 29,
+                            "line": 436
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCount\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('.bm-item-list a')\nExpected: \u001b[32m4\u001b[39m\nReceived: \u001b[31m5\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCount\" locator('.bm-item-list a') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.bm-item-list a')\u001b[22m\n\u001b[2m    14 × locator resolved to 5 elements\u001b[22m\n\u001b[2m       - unexpected value \"5\"\u001b[22m\n\n\n  434 |     // Verify all 4 navigation items are present\n  435 |     const menuItems = page.locator('.bm-item-list a');\n> 436 |     await expect(menuItems).toHaveCount(4);\n      |                             ^\n  437 |     await expect(page.locator('#inventory_sidebar_link')).toHaveText('All Items');\n  438 |     await expect(page.locator('#about_sidebar_link')).toHaveText('About');\n  439 |     await expect(page.locator('#logout_sidebar_link')).toHaveText('Logout');\n    at C:\\playwright\\tests\\core-functionality-and-ui.spec.ts:436:29"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-28T13:24:57.444Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--9863c-resentation-Component-State-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--9863c-resentation-Component-State-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\playwright\\test-results\\core-functionality-and-ui--9863c-resentation-Component-State-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\playwright\\tests\\core-functionality-and-ui.spec.ts",
+                        "column": 29,
+                        "line": 436
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "6dea9ae672d79f8ad0d7-09b3be1837588eead3cb",
+              "file": "core-functionality-and-ui.spec.ts",
+              "line": 423,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-28T13:24:15.191Z",
+    "duration": 48967.201,
+    "expected": 30,
+    "skipped": 0,
+    "unexpected": 10,
+    "flaky": 0
+  }
+}

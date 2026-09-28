@@ -1,0 +1,25 @@
+{
+  "name": "playwright-e2e-automation-activity",
+  "version": "1.0.0",
+  "description": "Playwright End-to-End Automation Activity: Core Functionality and UI Validation Suite",
+  "main": "tests/core-functionality-and-ui.spec.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "e2e-testing",
+    "automation",
+    "qa",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.50.0"
+  }
+}
